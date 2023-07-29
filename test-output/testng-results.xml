@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-30T04:04:02 BDT" name="Default suite" finished-at="2023-07-30T04:04:05 BDT" duration-ms="3348">
+    <groups>
+    </groups>
+    <test started-at="2023-07-30T04:04:02 BDT" name="Default test" finished-at="2023-07-30T04:04:05 BDT" duration-ms="3348">
+      <class name="bookStoreAPI.Get_BookStoreBookList">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:bookStoreAPI.Get_BookStoreBookList@37d4349f]" started-at="2023-07-30T04:04:02 BDT" name="setUp" finished-at="2023-07-30T04:04:03 BDT" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetBooks()[pri:0, instance:bookStoreAPI.Get_BookStoreBookList@37d4349f]" started-at="2023-07-30T04:04:03 BDT" name="testGetBooks" finished-at="2023-07-30T04:04:05 BDT" duration-ms="1958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBooks -->
+      </class> <!-- bookStoreAPI.Get_BookStoreBookList -->
+      <class name="bookStoreAPI.POST_AddBooks">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:bookStoreAPI.POST_AddBooks@17497425]" started-at="2023-07-30T04:04:05 BDT" name="setUp" finished-at="2023-07-30T04:04:05 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBook()[pri:0, instance:bookStoreAPI.POST_AddBooks@17497425]" started-at="2023-07-30T04:04:05 BDT" name="testCreateBook" finished-at="2023-07-30T04:04:05 BDT" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBook -->
+      </class> <!-- bookStoreAPI.POST_AddBooks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
